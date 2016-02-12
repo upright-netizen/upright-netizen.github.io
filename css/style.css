@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ *
+ *  Header
+ *
+ */
+
+.header {
+  padding: 20px;
+}
+
+/**
+ *
+ *  Main
+ *
+ */
+
+
+.logo-frame {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding; 50px;
+}
+
+.logo-content {
+  align-items: center;
+  flex: 1 100%;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Futura Medium', sans-serif;
+  font-size: 40vh;
+  font-weight: bold;
+}
+
+.logo .n {
+  font-size: 1.1em;
+}
+
+/*
+    For changing the background color
+ */
+body {
+  background-color: black;
+  -webkit-transition: background-color 0.35s ease;
+  -o-transition: background-color 0.35s ease;
+  transition: background-color 0.35s ease;
+}
+
+.color-bg-red {
+  background-color: #CC2900;
+}
